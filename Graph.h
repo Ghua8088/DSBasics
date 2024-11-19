@@ -26,8 +26,7 @@ struct GraphNode{
 class Graph{
     GraphNode* head;
     public:
-    Graph():head(NULL){
-    }
+    Graph():head(NULL){}
     void insert(int data){
         cout<<"Inserting"<<data<<endl;
         GraphNode* temp=new GraphNode(data);

@@ -48,8 +48,8 @@ class CDLL{
                 temp->next->prev=temp->prev;
                 if (temp == head) head = temp->next; 
                 if (temp == rear) rear = temp->prev; 
-                delete temp;
             }
+            delete temp;
         }else{
             cout<<"Element not found"<<endl;
         }
