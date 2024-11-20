@@ -31,6 +31,7 @@ class CDLL{
         node* temp=head;
         if(isEmpty()){
             cout<<"List is empty"<<endl;
+            return;
         }
         do{
             if(temp->data==data){
